@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" />
+		<script type="text/javascript"  src="js/script.js" ></script>
+	</head>
+	<body>
+		<table>	
+			<tr>
+				<td rowspan="2"> 
+					<img id="uniara" src="img/uniara.jpeg" />
+				</td> 
+				<td>
+					<strong> Docentes SI/ENG </strong>
+				</td>
+			</tr>
+			<tr>
+				<td> Andre, Joao, Malara, Marcelo, ... </td>
+			</tr>
+		</table>
+		<div id="conversas"> 
+		
+		</div>
+		
+		<b>Mensagem:</b> <br> <textarea id="msg" cols="100" rows="5"></textarea>
+		<br><select id="prof">
+			<option value="andre"> André </option>
+			<option value="jao"> João </option>
+			<option value="malara"> Malara </option>
+			<option value="marcelo"> Marcelo </option>
+			<option value="milton"> Milton </option>
+			<option value="mirella"> Renata </option>
+			<option value="ze"> José </option>
+			<option value="eu"> Eu </option>
+		</select>
+		<input type="button" value="Enviar" onclick="conversar()" />
+		<input type="button" value="Limpar" onclick="limpaCampos()" />
+
+	</body>
+</html>

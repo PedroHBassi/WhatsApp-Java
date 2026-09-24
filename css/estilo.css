@@ -1,0 +1,36 @@
+#msgProf{
+	background-color: white;
+	border-radius: 20%;
+} 
+
+.eu {
+	float: right;	
+	margin: 2px;
+	background-color: #00FA9A;
+}
+
+img {
+	width: 30px;
+	height: 30px;	
+}
+
+.enviado {
+	width: 10px;
+	height: 10px;
+	color: gray;
+}
+
+#conversas{
+	width: 1000px;
+	height: 350px;
+	border: 1px solid black;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-image: url(../img/fundo.jpeg);	
+}
+
+#uniara{
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+}
